@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giới Thiệu</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Bước 3: Liên kết nhảy có :focus -->
+    <a href="#main" class="skip-link">Chuyển đến Nội dung chính</a>
+
+    <header>
+      <h1>Bộ Sưu Tập & Giới Thiệu</h1>
+    </header>
+
+    <nav>
+      <!-- Bước 7: Nav sử dụng Flexbox -->
+      <ul>
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="about.html">Giới thiệu</a></li>
+        <li><a href="contact.html">Liên hệ</a></li>
+      </ul>
+    </nav>
+
+    <main id="main">
+      <h2>Về Dự Án Này</h2>
+      <p>
+        Trang này trưng bày bộ sưu tập gồm hơn 5 hình ảnh với các kiểu bo góc
+        viền khác nhau thông qua bộ chọn <code>:nth-child</code>.
+      </p>
+
+      <!-- Trang này chứa ít nhất 5 hình ảnh trong phần Flex gallery -->
+      <section class="flex-gallery">
+        <div>
+          <img
+            src="https://picsum.photos/400/300?random=1"
+            alt="Ảnh phong cảnh thiên nhiên 1"
+          />
+          <p>Ảnh 1 (Lẻ - Bo chéo)</p>
+        </div>
+        <div>
+          <img
+            src="https://picsum.photos/400/300?random=2"
+            alt="Ảnh phong cảnh thiên nhiên 2"
+          />
+          <p>Ảnh 2 (Chẵn - Bo tròn lớn)</p>
+        </div>
+        <div>
+          <img
+            src="https://picsum.photos/400/300?random=3"
+            alt="Ảnh phong cảnh thiên nhiên 3"
+          />
+          <p>Ảnh 3 (Lẻ - Bo chéo)</p>
+        </div>
+        <div>
+          <img
+            src="https://picsum.photos/400/300?random=4"
+            alt="Ảnh phong cảnh thiên nhiên 4"
+          />
+          <p>Ảnh 4 (Chẵn - Bo tròn lớn)</p>
+        </div>
+        <div>
+          <img
+            src="https://picsum.photos/400/300?random=5"
+            alt="Ảnh phong cảnh thiên nhiên 5"
+          />
+          <p>Ảnh 5 (Lẻ - Bo chéo)</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Bản quyền thuộc về khóa học Web Design.</p>
+    </footer>
+  </body>
+</html>
